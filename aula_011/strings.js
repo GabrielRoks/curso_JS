@@ -3,3 +3,5 @@ const umaString = "Olá \"Mundo\"";
 
 console.log(umaString[2]);
 // Retorna o indice 2 da string, que é a letra "á".
+console.log(umaString.charAt(2));
+// Podemos também usar o método charAt().
