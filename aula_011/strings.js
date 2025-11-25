@@ -10,3 +10,5 @@ console.log(umaString.indexOf("Mundo"));
 // Caso queira saber o índice que começa uma palavra, usamos o indexOf().
 console.log(umaString.lastIndexOf("u"));
 // Começa a busca pelo final da string.
+console.log(umaString.length);
+// Retorna o tamanho da string.
