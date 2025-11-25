@@ -12,3 +12,7 @@ console.log(umaString.lastIndexOf("u"));
 // Começa a busca pelo final da string.
 console.log(umaString.length);
 // Retorna o tamanho da string.
+console.log(umaString.toUpperCase());
+// Transforma a string em maiúscula.
+console.log(umaString.toLocaleLowerCase());
+// Tranforma uma string em minúscula.
