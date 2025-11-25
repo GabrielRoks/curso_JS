@@ -8,3 +8,6 @@ console.log(number_03.toString(2));
 let number_04 = 10.041391;
 console.log(number_04.toFixed(2));
 // limita o número para 2 casas decimais
+
+console.log(Number.isInteger(number_04));
+// verifica se é um número inteiro
