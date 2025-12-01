@@ -11,3 +11,7 @@ console.log(number_4);
 
 console.log(Math.random());
 // Gera um número aleatório entre 0 e 1
+
+const aleatório = Math.random() * (10 - 3) + 3;
+console.log(aleatório);
+// Gera um número aleatório entre 3 e 10
