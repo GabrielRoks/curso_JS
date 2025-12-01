@@ -8,3 +8,6 @@ console.log(number_3);
 let number_4 = Math.round(number_1);
 console.log(number_4);
 // arredonda para o mais próximo
+
+console.log(Math.random());
+// Gera um número aleatório entre 0 e 1
