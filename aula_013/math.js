@@ -15,3 +15,6 @@ console.log(Math.random());
 const aleatório = Math.random() * (10 - 3) + 3;
 console.log(aleatório);
 // Gera um número aleatório entre 3 e 10
+const aleatório_2 = Math.round(Math.random() * (10 - 3) + 3);
+console.log(aleatório_2);
+// Gera um número aleatório entre 3 e 10 arredondado
