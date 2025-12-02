@@ -3,6 +3,8 @@ const alunos = ['Gabriel', 'João', 'Daniel'];
 // Os arrays são indexaveis, tendo um indice para cada valor separado por vírgula
 alunos.push('Maria'); // adiciona algo ao fim do array
 alunos.unshift('Ana'); // adiciona algo no começo do array
+alunos.pop(); // remove o último item do array
+console.log(alunos);
 // alunos[alunos.length] = 'José';
 // alunos[alunos.length] = 'Gabriele';
 // alunos[alunos.length] = 'Matheus';
