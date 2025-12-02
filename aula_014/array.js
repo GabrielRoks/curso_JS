@@ -1,8 +1,12 @@
 //               0          1       2
 const alunos = ['Gabriel', 'João', 'Daniel'];
 // Os arrays são indexaveis, tendo um indice para cada valor separado por vírgula
-alunos[0] = "Roks";
+alunos[alunos.length] = 'José';
+alunos[alunos.length] = 'Gabriele';
+alunos[alunos.length] = 'Matheus';
+alunos[alunos.length] = 'Carlos';
+console.log(alunos);
+// console.log(alunos.length); // Retorna o tamanho do array
 // Reescreve um item do array
-alunos[3] = 'Maria';
+// alunos[3] = 'Maria';
 // adiciona algo no array
-// console.log(alunos[0]);
