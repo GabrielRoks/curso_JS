@@ -1,4 +1,10 @@
 function saudacao(nome){
-    console.log(`Bom dia, ${nome}!`);
+    return `Bom dia, ${nome}!`;
 }
-saudacao('Gabriel');
+
+function soma(a, b){
+    const resultado = a + b;
+    return resultado;
+}
+console.log(saudacao('Gabriel'));
+console.log(soma(2, 7));
