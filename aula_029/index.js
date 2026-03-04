@@ -9,3 +9,7 @@ const frutas = ['Uva', 'Morango', 'Banana']
 for (let i = 0; i <frutas.length; i++) {
     console.log(frutas[i]);
 }
+
+for (let j = 900; j >= -100; j -= 100){
+    console.log(j);
+}
