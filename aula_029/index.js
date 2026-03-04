@@ -7,7 +7,7 @@
 // }
 const frutas = ['Uva', 'Morango', 'Banana']
 for (let i = 0; i <frutas.length; i++) {
-    console.log(frutas[i]);
+    console.log(`Indice ${i}`, frutas[i]);
 }
 
 for (let j = 900; j >= -100; j -= 100){
