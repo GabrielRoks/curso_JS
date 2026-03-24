@@ -1,5 +1,5 @@
 function fizzBuzz(numero){
-    if (typeof numero !== Number) return NaN;
+    if (typeof numero !== 'number') return NaN;
     if (numero >= 1 && numero <= 100){
         if (numero % 3 === 0 && numero % 5 === 0){
             return "FizzBuzz";
