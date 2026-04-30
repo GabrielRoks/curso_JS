@@ -7,7 +7,7 @@ function Carro(marca, modelo) {
     console.log(ID);
   };
 
-  // Atributos ou métodos públicos
+  // Atributos ou métodos
   this.marca = marca;
   this.modelo = modelo;
 
