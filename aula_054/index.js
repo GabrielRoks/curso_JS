@@ -9,3 +9,5 @@ carros[2] = "AMG";
 delete carros[2];
 console.log(carros);
 console.log(novo, removido);
+
+// revisão
